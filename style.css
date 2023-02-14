@@ -1,3 +1,33 @@
+:root{
+    --cor-de-fundo: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
 body{
-    background-color: #FFFFFF;
+    background-color: var(--cor-de-fundo);
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    background-color: var(--cor-de-fundo);
+    top: 0;
+}
+
+.header__logo{
+
+}
+
+.header__link{
+
+}
+
+.button__nav{
+
 }
