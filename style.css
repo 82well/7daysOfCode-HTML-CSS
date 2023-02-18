@@ -1,7 +1,8 @@
 :root {
-    --text-color: #667085;
+    
     --text-color: #667085;
     --main-color: #8E2424;
+    --subtitle-color:#101828;
   
   }
   
@@ -71,3 +72,31 @@
     text-align: center;
     line-height: 1.5rem;
   }
+
+  .metricas__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    text-align: center;
+    align-items: center;
+    padding:0 2rem;
+}
+
+.metrica__item--destaque{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 3.75rem;
+    margin: 0.5rem auto;
+}
+.metrica__item--subtitulo{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0.25rem auto 0;
+    color: var(--subtitle-color);
+    line-height: 1.7rem;
+}
+.metrica__item--descricao{
+    color: var(--text-color);
+    font-weight: 400;
+    margin:0.5rem auto;
+}
