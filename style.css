@@ -113,3 +113,14 @@
   padding: 4px 12px;
   
 }
+
+.titulo__vagas{
+  margin: 0.5em 0;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.equipe__vagas{
+  margin-bottom: 3em;
+  color: var(--text-color);
+}
