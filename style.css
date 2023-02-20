@@ -3,8 +3,13 @@
     --text-color: #667085;
     --main-color: #8E2424;
     --subtitle-color:#101828;
-    --white: #FFF;
-  
+    --white: #FFFF;
+    --cor-de-fundo-botoes: rgba(142, 36, 36, 0.05);
+    --cor-das-bordas: #EAECF0;
+    --cor-de-fundo-secao: rgba(196, 25, 25, 0.03);
+    --cor-fundo-rodape: #F9FAFB;
+    --cor-da-sombra: rgba(16, 24, 40, 0.05);
+    --borda-input: #D0D5DD;
   }
   
   * {
@@ -146,7 +151,7 @@
 }
 
 .vagas_disponivel_container:hover {
-  box-shadow: 1px 1px 2px  black;
+  box-shadow: 1px 1px 2px  var(--subtitle-color);
 }
 
 
@@ -198,9 +203,16 @@
 }
 
 .profissao_comentarios{
-  color: var(--cinza-claro);
+  color: var(--text-color);
   font-size: 14px;
   font-weight: 400;
+}
+
+.foto{
+  width: 56px;
+  height: 56px;
+  left: 516px;
+  border-radius: 200px;
 }
 
 .rodape {
@@ -235,6 +247,6 @@
 }
 
 .direitos_rodape{
-  color: var(--cinza-claro);
+  color: var(--text-color);
   font-weight: 400;
 }
