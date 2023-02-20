@@ -124,3 +124,46 @@
   margin-bottom: 3em;
   color: var(--text-color);
 }
+
+.vagas_disponivel_titulo{
+  margin: 2em 15em;
+  text-align: left;
+}
+
+.titulo_vaga_disponivel{
+  font-size: 20px;
+  color: var(--subtitle-color);
+  font-weight: 500;
+  margin:5em 2em 2em 2em;
+}
+
+.vagas_disponivel_container{
+  border: 2px solid #EAECF0;
+  margin: 1em;
+  padding: 2em;
+  border-radius: 16px;
+}
+
+.vagas_disponivel_container:hover {
+  box-shadow: 1px 1px 2px  black;
+}
+
+
+.vagas_disponivel{
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--subtitle-color);
+}
+
+.descricao_vaga_container{
+  display: flex;
+  margin-top: 2em;
+}
+
+.descricao_vaga{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-right: 4em;
+  color:var(--text-color);
+}
