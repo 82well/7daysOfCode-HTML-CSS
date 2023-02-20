@@ -100,3 +100,21 @@
     font-weight: 400;
     margin:0.5rem auto;
 }
+
+.vagas {
+  text-align: center;
+  margin: 2em;
+}
+
+.vagas_titulo{
+  display: flex;
+  align-items: center;
+}
+
+.texto__vagas{
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--main-color);
+  padding: 4px 12px;
+  
+}
