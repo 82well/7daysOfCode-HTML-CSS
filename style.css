@@ -106,11 +106,6 @@
   margin: 2em;
 }
 
-.vagas_titulo{
-  display: flex;
-  align-items: center;
-}
-
 .texto__vagas{
   font-weight: 500;
   font-size: 14px;
